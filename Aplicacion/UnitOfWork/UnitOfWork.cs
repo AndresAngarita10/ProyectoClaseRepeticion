@@ -12,6 +12,7 @@ namespace Aplicacion.UnitOfWork
     {
         private readonly ApiIncidenciasContext context ;
         private PaisRepository _paises;
+        private DepartamentoRepository _departamentos;
 
         public UnitOfWork(ApiIncidenciasContext _context)
         {
@@ -25,6 +26,16 @@ namespace Aplicacion.UnitOfWork
                     _paises = new PaisRepository(context);
                 }
                 return _paises;
+            }
+        }
+
+        public IDepartamentoRepository Departamentos
+        {
+            get {
+                if(_departamentos == null){
+                    _departamentos = new DepartamentoRepository(context);
+                }
+                return _departamentos;
             }
         }
 

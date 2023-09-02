@@ -8,6 +8,7 @@ namespace Dominio.Interfaces
     public interface IUnitOfWork
     {
         IPaisRepository Paises { get; }
+        IDepartamentoRepository Departamentos { get; }
         Task<int> SaveAsync();
     }
 }

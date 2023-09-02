@@ -10,5 +10,6 @@ namespace API.Dtos
     {
         public string NombreDep { get; set; }
         public int IdPaisFk { get; set; }
+        public List<Ciudad> Ciudades { get; set; }
     }
 }
