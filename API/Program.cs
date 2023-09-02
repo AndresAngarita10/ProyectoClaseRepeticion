@@ -1,3 +1,4 @@
+using System.Reflection;
 using API.Extensions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
@@ -18,6 +19,7 @@ builder.Services.AddSwaggerGen();
 //------------------------------
 builder.Services.ConfigureCors();
 builder.Services.AddAplicacionServices();//-----------------
+builder.Services.AddAutoMapper(Assembly.GetEntryAssembly());
 builder.Services.AddDbContext<ApiIncidenciasContext>(Options =>{
     string connectionString = builder.Configuration.GetConnectionString("ConexMysql");
     Options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
