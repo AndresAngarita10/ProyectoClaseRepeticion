@@ -17,7 +17,7 @@ builder.Services.AddSwaggerGen();
 //------------------
 //------------------------------
 builder.Services.ConfigureCors();
-
+builder.Services.AddAplicacionServices();//-----------------
 builder.Services.AddDbContext<ApiIncidenciasContext>(Options =>{
     string connectionString = builder.Configuration.GetConnectionString("ConexMysql");
     Options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));

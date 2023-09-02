@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0HJoxbRm25ETbOI61t5+0zFa6vozpHpCsAt4L//IPqCeogv1etELbWabKB28GAbrzj39iZg7yXkIClNlmJbadQ==",
+  "dgSpecHash": "CcRzaj0r/NHuwQ1BIvHFWmWyKm9+yO9K/1Vjb+kHOOeNnnM6K80yccyTm+7NLfVx74kmJ72pWRJRJBxlqGcMLw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",

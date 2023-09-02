@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Aplicacion\\Aplicacion.csproj": {}
+    "C:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Aplicacion\\Aplicacion.csproj": {}
   },
   "projects": {
-    "c:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Aplicacion\\Aplicacion.csproj": {
+    "C:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "c:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Aplicacion\\Aplicacion.csproj",
+        "projectPath": "C:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Aplicacion\\Aplicacion.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Aplicacion\\obj\\",
+        "outputPath": "C:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -29,8 +29,8 @@
               "C:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Dominio\\Dominio.csproj": {
                 "projectPath": "C:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Dominio\\Dominio.csproj"
               },
-              "c:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "c:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Persistencia\\Persistencia.csproj"
+              "C:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "C:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -131,14 +131,14 @@
         }
       }
     },
-    "c:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Persistencia\\Persistencia.csproj": {
+    "C:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "c:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Persistencia\\Persistencia.csproj",
+        "projectPath": "C:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Persistencia\\obj\\",
+        "outputPath": "C:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"

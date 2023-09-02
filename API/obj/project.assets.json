@@ -5906,8 +5906,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Aplicacion\\Aplicacion.csproj": {
-              "projectPath": "c:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Aplicacion\\Aplicacion.csproj"
+            "C:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Aplicacion\\Aplicacion.csproj": {
+              "projectPath": "C:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Aplicacion\\Aplicacion.csproj"
             }
           }
         }

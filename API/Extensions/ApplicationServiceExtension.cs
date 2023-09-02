@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Aplicacion.UnitOfWork;
+using Dominio.Interfaces;
 
 namespace API.Extensions;
 
@@ -14,4 +16,14 @@ namespace API.Extensions;
                 .AllowAnyMethod()
                 .AllowAnyHeader() );
         });
+
+
+        public static void AddAplicacionServices(this IServiceCollection services)
+        {
+            //Services.AddScoped<IpaisInterface,PaisRepository>();
+            //Services.AddScoped<ITipoPersona,TipoPeronsaRepository>();
+
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+        }
+
     }
