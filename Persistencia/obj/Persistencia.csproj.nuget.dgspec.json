@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Persistencia\\Persistencia.csproj": {}
+    "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\RepeticionSkeleton\\ProyectoClaseRepeticion\\Persistencia\\Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\RepeticionSkeleton\\ProyectoClaseRepeticion\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\RepeticionSkeleton\\ProyectoClaseRepeticion\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Dominio\\obj\\",
+        "projectPath": "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\RepeticionSkeleton\\ProyectoClaseRepeticion\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\APT01-042\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\RepeticionSkeleton\\ProyectoClaseRepeticion\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\APT01-042\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -67,21 +67,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Persistencia\\Persistencia.csproj": {
+    "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\RepeticionSkeleton\\ProyectoClaseRepeticion\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\RepeticionSkeleton\\ProyectoClaseRepeticion\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Persistencia\\Persistencia.csproj",
-        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Persistencia\\obj\\",
+        "projectPath": "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\RepeticionSkeleton\\ProyectoClaseRepeticion\\Persistencia\\Persistencia.csproj",
+        "packagesPath": "C:\\Users\\APT01-042\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\RepeticionSkeleton\\ProyectoClaseRepeticion\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\APT01-042\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -93,8 +93,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Dominio\\Dominio.csproj"
+              "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\RepeticionSkeleton\\ProyectoClaseRepeticion\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\RepeticionSkeleton\\ProyectoClaseRepeticion\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -134,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

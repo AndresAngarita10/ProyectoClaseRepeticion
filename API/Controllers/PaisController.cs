@@ -6,7 +6,8 @@ using Dominio.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers;
-
+[ApiVersion("1.0")]
+[ApiVersion("1.1")]
 public class PaisController : BaseApiController
 {
     private readonly IUnitOfWork unitOfWork;
@@ -19,6 +20,7 @@ public class PaisController : BaseApiController
     }
 
     [HttpGet]
+    [MapToApiVersion("1.0")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<ActionResult<IEnumerable<PaisDto>>> Get()
@@ -26,6 +28,17 @@ public class PaisController : BaseApiController
         var paises = await this.unitOfWork.Paises.GetAllAsync();
         return this._mapper.Map<List<PaisDto>>(paises);
     }
+
+    [HttpGet]
+    [MapToApiVersion("1.1")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    public async Task<ActionResult<IEnumerable<PaisxDepDto>>> Get11()
+    {
+        var paises = await this.unitOfWork.Paises.GetAllAsync();
+        return this._mapper.Map<List<PaisxDepDto>>(paises);
+    }
+
 
     
     [HttpGet("{id}")]

@@ -5045,19 +5045,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\andre\\.nuget\\packages\\": {}
+    "C:\\Users\\APT01-042\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\RepeticionSkeleton\\ProyectoClaseRepeticion\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "c:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Dominio\\Dominio.csproj",
-      "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\andre\\Documents\\C#\\ProyectoClaseRepeticion\\Dominio\\obj\\",
+      "projectPath": "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\RepeticionSkeleton\\ProyectoClaseRepeticion\\Dominio\\Dominio.csproj",
+      "packagesPath": "C:\\Users\\APT01-042\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\APT01-042\\Documents\\ejercicio4Capas\\RepeticionSkeleton\\ProyectoClaseRepeticion\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\APT01-042\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -5110,7 +5110,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

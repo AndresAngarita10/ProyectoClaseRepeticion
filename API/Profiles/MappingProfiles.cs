@@ -15,6 +15,7 @@ namespace API.Profiles
             CreateMap<Departamento,DepartamentoDto>().ReverseMap().ForMember(o => o.Ciudades, d => d.Ignore());
 
             CreateMap<Ciudad,CiudadDto>().ReverseMap().ForMember(o => o.Personas, d => d.Ignore());
+            CreateMap<Pais,PaisxDepDto>().ReverseMap();
         }
     }
 }
