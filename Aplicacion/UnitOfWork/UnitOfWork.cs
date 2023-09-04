@@ -13,6 +13,7 @@ namespace Aplicacion.UnitOfWork
         private readonly ApiIncidenciasContext context ;
         private PaisRepository _paises;
         private DepartamentoRepository _departamentos;
+        private CiudadRepository _ciudades;
 
         public UnitOfWork(ApiIncidenciasContext _context)
         {
@@ -36,6 +37,17 @@ namespace Aplicacion.UnitOfWork
                     _departamentos = new DepartamentoRepository(context);
                 }
                 return _departamentos;
+            }
+        }
+
+        
+        public ICiudadRepository Ciudades
+        {
+            get {
+                if(_ciudades == null){
+                    _ciudades = new CiudadRepository(context);
+                }
+                return _ciudades;
             }
         }
 

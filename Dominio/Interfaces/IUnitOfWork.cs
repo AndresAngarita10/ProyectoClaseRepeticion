@@ -9,6 +9,7 @@ namespace Dominio.Interfaces
     {
         IPaisRepository Paises { get; }
         IDepartamentoRepository Departamentos { get; }
+        ICiudadRepository Ciudades { get; }
         Task<int> SaveAsync();
     }
 }

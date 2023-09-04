@@ -30,6 +30,7 @@ builder.Services.AddDbContext<ApiIncidenciasContext>(Options =>{
 
 
 
+
 //---------------------------------------------------------------
 
 var app = builder.Build();
